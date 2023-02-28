@@ -1,0 +1,220 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    padding: 15px 0 15px 50px;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 75px;
+}
+
+.site-name {
+    margin-left: 15px;
+}
+
+.banner {
+    width: 100%;
+    margin: 0;
+}
+
+.banner img {
+    object-fit: cover;
+    width: 100%;
+    height:  40vh;
+}
+
+.section__items-container {
+    display: flex;
+    align-items: start;
+}
+
+.section-name {
+    width: 100%;
+    margin: 15px 0;
+    padding: 5px;
+    text-align: center;
+}
+
+.nav-container nav {
+    padding: 0 50px;
+}
+
+.nav-container nav li {
+    list-style: none;
+    max-width: 100px;
+}
+
+.nav-container .current-page a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.nav-container nav li:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.articles-container {
+    width: 75%;
+}
+
+.right-container {
+    width: 80%;
+}
+
+.caption {
+    text-decoration: underline;
+}
+
+table {
+    text-align: center;
+    border-spacing: 5px;
+}
+
+th, td {
+    padding: 5px 15px;
+}
+
+.game-information-container {
+    margin: 25px 0;
+}
+
+.game-information-container p:not(.contact-container) {
+    margin-top: 25px;
+}
+
+.contact-container {
+    display: flex;
+    align-items: center;
+}
+
+.contact-container p:first-child {
+    padding-right: 15px;
+}
+
+.sportmanship-container, .allPlay-container {
+    margin: 25px 0;
+}
+
+.sportsmanship-rules, .regulations-container .list-container li:not(.sub-list), .allPlay-rules{
+    margin: 15px 0;
+    text-indent: 10px;
+}
+
+.list-container {
+    margin-left: 15px;
+}
+
+.list-container .sub-list li {
+    margin-top: 15px;
+}
+
+.bold-item {
+    font-weight: bold;
+}
+
+.sub-list {
+    margin-left: 20px;
+}
+
+.games-location {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.location-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 25px 0;
+}
+
+.location-container iframe {
+    width: 300px;
+}
+
+.name-location {
+    padding: 20px;
+}
+
+form {
+    width: 70%;
+    margin-bottom: 25px;
+}
+
+fieldset {
+    border: 0;
+    margin: 25px 0;
+}
+
+
+legend {
+    padding: 10px 0;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#bday, #today-date {
+    background-color: #e0e0e0;
+    border: 0;
+    border-radius: 5px;
+    padding: 5px;
+    box-shadow: none;
+}
+
+.items-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.item {
+    width: 200px;
+}
+
+
+form input {
+    border:none;
+    border-bottom: 1px solid #b5b5b5;
+    outline: none;
+    margin: 0 10px;
+}
+
+.permission-p {
+    text-indent: 15px;
+    text-align: justify;
+}
+
+.submit-button {
+    width: 145px;
+    padding: 22px;
+    background-color: #e0e0e0;
+    border-radius: 0 15px 15px 15px;
+    border: none;
+    margin: auto;
+}
+
+.submit-button:hover {
+    width: 150px;
+    background-color: #5FA199;
+    transition: .3s ease-in;
+}
+
+.submit-button:not(:hover) {
+    width: 140;
+    background-color: #e0e0e0;
+    transition: .3s ease-in;
+}
+/* 
+
+A editar más adelante; permitiriía customizar el color de los input type "radio" y "checkbox"
+
+form input[type="radio"], 
+input[type="checkbox"] {
+    
+}
+*/
